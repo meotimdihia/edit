@@ -10,4 +10,4 @@ If you are a senior developer , you may still need it.
 
 ###PREVIEW
 
-![Edit file from browser](http://i.stack.imgur.com/vk4w8.jpg)
+![Edit file from browser](http://i.imgur.com/fyUvS.png)

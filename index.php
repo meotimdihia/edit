@@ -1,3 +1,6 @@
+<?php
+header('X-XSS-Protection: 0');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -90,8 +93,8 @@
 		?>
 		<br/><br/><br/>
 		<form method='post'>
-			<pre id='editor' ><?php echo $source?></pre><br/>
-			<textarea name='source' class='textarea-hidden' >djlfsjfsk</textarea>
+			<pre id='editor' ><?php echo htmlspecialchars($source)?></pre><br/>
+			<textarea name='source' class='textarea-hidden' ></textarea>
 			<input type='submit'  id='submit-form'>
 		</form>
 	</div>
