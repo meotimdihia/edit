@@ -1,6 +1,4 @@
-Edit file trực tiếp từ browser để test bất cứ gì mới hoặc simple về php. 
-Very recommend for php newbie hoặc junior PHP developer.
-If you are a senior developer , you may still need it.
+Edit file from browser
 
 ###REQUIRED: 
 	- Git
