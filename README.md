@@ -3,8 +3,9 @@ Edit file from browser.
 ###REQUIRED: 
 	- Git
 ###INSTALLING:
-	- git pull git@github.com:meotimdihia/edit.git
-	- git submodule foreach git pull
+	- git clone git@github.com:meotimdihia/edit.git
+	- cd edit
+	- git submodule update --init --recursive
 
 ###PREVIEW
 

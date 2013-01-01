@@ -131,11 +131,13 @@ header('X-XSS-Protection: 0');
 		})
 
 		var editor = ace.edit("editor");
+		editor.setFontSize('15px');
 		editor.setTheme("ace/theme/twilight");
 		editor.session.setMode("ace/mode/php");
 
 		jQuery('#submit-form').click(function() {
 			jQuery("textarea[name='source']").text(editor.getValue());
+			console.log(1);
 			jQuery(this).closest('form').submit();
 		})
 	</script>
