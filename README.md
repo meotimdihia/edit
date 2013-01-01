@@ -1,4 +1,4 @@
-Edit file from browser
+Edit file from browser.
 
 ###REQUIRED: 
 	- Git
