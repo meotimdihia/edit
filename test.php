@@ -1,2 +1,6 @@
 <?php
-echo strtotime('08-01-2013');
+echo "Hello World";
+?>
+<script type='text/javascript'>
+	alert('Have fun');
+</script>
