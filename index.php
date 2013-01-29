@@ -88,8 +88,9 @@ header('X-XSS-Protection: 0');
 		?>
 		<h4 style='color:#666;float:left'>Test.php </h4>
 		<div style='float:right'>
-			<a href='?test=true'>Don't render | </a>
-			<a href='./index.php'>Render</a>
+			<a href='?test=true'>Don't render</a> | 
+			<a href='./index.php'>Render</a> | 
+			<a href='./dates.php'>Dates</a>
 		</div>
 		<div style='clear:both'></div>
 		<?php
