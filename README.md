@@ -5,7 +5,7 @@ Edit file from browser.
 ###REQUIRED: 
 	- Git
 ###INSTALLING:
-	- git clone git@github.com:meotimdihia/edit.git
+	- git clone https://github.com/meotimdihia/edit.git
 	- cd edit
 	- git submodule update --init --recursive
 
