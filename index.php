@@ -96,8 +96,7 @@ function render($view, $vars)
         ?>
         <h4 style='color:#666;float:left'>Test.php </h4>
         <div style='float:right'>
-            <a href='?test=true'>Don't render</a> | 
-            <a href='./index.php'>Render</a> | 
+            <a href="#" id='use-jquery'>Use jQuery</a> | 
             <a href='./dates.php'>Dates</a>
         </div>
         <div style='clear:both'></div>
@@ -145,7 +144,6 @@ function render($view, $vars)
 
         jQuery('#submit-form').click(function() {
             jQuery("textarea[name='source']").text(editor.getValue());
-            console.log(1);
             jQuery(this).closest('form').submit();
         })
 
@@ -161,6 +159,13 @@ function render($view, $vars)
             document.getElementById(id).height= (newheight) + "px";
             document.getElementById(id).width= (newwidth) + "px";
         }
+
+        script=document.createElement('script'); script.type = 'text/javascript';
+        script.src='jquery-1.8.3.min.js';
+        
+        jQuery("#use-jquery").click(function() {
+            editor.insert(script.outerHTML);
+        })
     </script>
 
 </body>
